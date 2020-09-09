@@ -1,0 +1,348 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    font-size: 3%;
+    font-family: "Montserrat", sans-serif;
+}
+
+/* navbar */
+.fixed-top {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1010;
+    background-color: #111;
+}
+
+.links a:hover {
+    margin-left: 20px;
+    transition: 0.4s;
+}
+
+.navbar-nav {
+    display: block;
+}
+
+#sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    display: block;
+}
+
+/* particles div */
+.social {
+    display: inline;
+}
+
+.social i:hover {
+    color: #1a1a2e;
+}
+
+.fab {
+    padding: 2rem;
+    font-size: 2rem;
+}
+
+/* about */
+#about {
+    font-size: 1rem;
+    padding: 3rem 4rem;
+    height: 100%;
+}
+
+/* education */
+#education {
+    background-color: #1a1a2e;
+    color: #fff;
+    font-size: 1rem;
+    padding: 3rem 4rem;
+    height: 100%;
+}
+
+/* experience */
+#experience {
+    background-color: #f9f3f4;
+    font-size: 1rem;
+    padding: 3rem 4rem;
+    height: 100%;
+}
+
+/* skills */
+#skills {
+    background-color: #1a1a2e;
+    color: #fff;
+    font-size: 1rem;
+    padding: 3rem 4rem;
+    height: 100%;
+}
+
+/* projects */
+#projects {
+    background-color: #f9f3f4;
+    font-size: 1rem;
+    padding: 3rem 4rem;
+    height: 100%;
+}
+
+/* certifications */
+#certifications {
+    background-color: #1a1a2e;
+    color: #fff;
+    font-size: 1rem;
+    padding: 3rem 4rem;
+    height: 100%;
+}
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+    #particles-js {
+        background-image: url("space-dark1.jpg");
+        background-size: cover;
+        margin: 0;
+        height: 100%;
+        background-position: 20%;
+    }
+
+    .main {
+        color: #f9f3f4;
+        text-align: center;
+        padding-top: 40%;
+        width: 100%;
+        height: 100vh;
+    }
+
+    .large {
+        display: none;
+    }
+
+    .div-part {
+        text-align: center;
+    }
+
+    .fas {
+        padding-right: 1rem;
+    }
+
+    h5 {
+        padding-bottom: 1rem;
+    }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 567px) and (max-width: 991.98px) {
+    #particles-js {
+        background-image: url("space-dark1.jpg");
+        background-size: cover;
+        margin: 0;
+        height: 100%;
+        background-position: 20%;
+    }
+
+    .main {
+        color: #f9f3f4;
+        text-align: center;
+        padding-top: 40%;
+        width: 100%;
+        height: 100vh;
+    }
+
+    .large {
+        display: none;
+    }
+
+    .div-part {
+        text-align: center;
+    }
+
+    .fas {
+        padding-right: 1rem;
+    }
+
+    h5 {
+        padding-bottom: 1rem;
+    }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1500px) {
+    #sidenav {
+        height: 100%;
+        width: 20%;
+        position: fixed;
+        z-index: 1;
+        top: 0;
+        left: 0;
+        background-color: #111;
+        overflow-x: hidden;
+        padding-top: 1.25rem;
+        display: block;
+    }
+
+    #particles-js {
+        background-image: url("space-dark1.jpg");
+        background-size: cover;
+        height: 100vh;
+        margin: 0 0 0 20%;
+    }
+
+    .name {
+        color: #f9f3f4;
+        position: absolute;
+        text-align: center;
+        top: 30%;
+        width: 80%;
+    }
+
+    .img-profile {
+        max-width: 20rem;
+        max-height: 20rem;
+        vertical-align: middle;
+    }
+
+    .small {
+        display: none;
+    }
+
+    .live-apps {
+        margin-top: 20px;
+        float: right;
+    }
+
+    .navbar-link {
+        text-align: center;
+        margin: auto;
+        padding-top: 30px;
+    }
+
+    .links {
+        text-align: center;
+        display: block;
+        padding-top: 30px;
+        color: #818181;
+    }
+
+    .content {
+        height: 100vh;
+        margin: 0 0 0 20%;
+    }
+
+    .fas {
+        padding-right: 1.5rem;
+        padding-left: 1rem;
+    }
+
+    .div-part {
+        text-align: center;
+    }
+
+    .side {
+        float: right;
+    }
+
+    #about,
+    #education,
+    #experience,
+    #skills,
+    #projects,
+    #certifications {
+        height: 100vh;
+    }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+    #sidenav {
+        height: 100%;
+        width: 20%;
+        position: fixed;
+        z-index: 1;
+        top: 0;
+        left: 0;
+        background-color: #111;
+        overflow-x: hidden;
+        padding-top: 1.25rem;
+        display: block;
+    }
+
+    #particles-js {
+        background-image: url("space-dark1.jpg");
+        background-size: cover;
+        height: 100vh;
+        margin: 0 0 0 20%;
+    }
+
+    .name {
+        color: #f9f3f4;
+        position: absolute;
+        text-align: center;
+        top: 30%;
+        width: 80%;
+    }
+
+    .img-profile {
+        max-width: 20rem;
+        max-height: 20rem;
+        vertical-align: middle;
+    }
+
+    .small {
+        display: none;
+    }
+
+    .live-apps {
+        margin-top: 20px;
+        float: right;
+    }
+
+    .navbar-link {
+        text-align: center;
+        margin: auto;
+        padding-top: 30px;
+    }
+
+    .links {
+        text-align: center;
+        display: block;
+        padding-top: 30px;
+        color: #818181;
+    }
+
+    .content {
+        height: 100vh;
+        margin: 0 0 0 20%;
+    }
+
+    .fas {
+        padding-right: 1.5rem;
+        padding-left: 1rem;
+    }
+
+    .div-part {
+        text-align: center;
+    }
+
+    .side {
+        float: right;
+    }
+
+    #about,
+    #education,
+    #experience,
+    #skills,
+    #projects,
+    #certifications {
+        height: 100vh;
+    }
+}

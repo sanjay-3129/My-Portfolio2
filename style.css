@@ -1,0 +1,196 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    font-family: "Montserrat", sans-serif;
+}
+
+h1 {
+    font-size: 60px;
+}
+
+h3 {
+    font-size: 25px;
+}
+
+h5 {
+    padding-bottom: 1rem;
+}
+
+.fab {
+    padding: 3rem;
+    font-size: 3rem;
+}
+
+.fas {
+    padding-right: 1.5rem;
+}
+
+.div-part {
+    text-align: center;
+}
+
+#sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    display: block;
+}
+
+.links a:hover {
+    margin-left: 20px;
+    transition: 0.4s;
+}
+
+.social {
+    display: inline;
+}
+
+.social i:hover {
+    color: #1a1a2e;
+}
+
+.navbar-nav {
+    display: block;
+}
+
+.main-content {
+    margin: 0;
+}
+
+#about {
+    background-color: #f9f3f4;
+    font-size: 1rem;
+    padding: 3rem 4rem;
+}
+
+#education {
+    background-color: #1a1a2e;
+    color: #fff;
+    font-size: 1rem;
+    padding: 3rem 4rem;
+}
+
+#experience {
+    background-color: #f9f3f4;
+    font-size: 1rem;
+    padding: 3rem 4rem;
+}
+
+#skills {
+    background-color: #1a1a2e;
+    color: #fff;
+    font-size: 1rem;
+    padding: 3rem 4rem;
+}
+
+#projects {
+    background-color: #f9f3f4;
+    font-size: 1rem;
+    padding: 3rem 4rem;
+}
+
+#certifications {
+    background-color: #1a1a2e;
+    color: #fff;
+    font-size: 1rem;
+    padding: 3rem 4rem;
+}
+
+/* 991px or less */
+@media screen and (max-width: 991px) {
+    .fixed-top {
+        position: fixed;
+        top: 0;
+        right: 0;
+        left: 0;
+        z-index: 900;
+        background-color: #111;
+    }
+
+    #particles-js {
+        background-image: url("space-dark1.jpg");
+        background-size: cover;
+        height: 100vh;
+        margin: 0;
+    }
+
+    .name {
+        color: #f9f3f4;
+        position: absolute;
+        text-align: center;
+        top: 40%;
+        width: 100%;
+    }
+
+    .large {
+        display: none;
+    }
+
+    .main {
+        width: 100%;
+    }
+}
+
+/* 992px and more */
+@media screen and (min-width: 992px) {
+    #sidenav {
+        height: 100%;
+        width: 20%;
+        position: fixed;
+        z-index: 1;
+        top: 0;
+        left: 0;
+        background-color: #111;
+        overflow-x: hidden;
+        padding-top: 1.25rem;
+        display: block;
+    }
+
+    #particles-js {
+        background-image: url("space-dark1.jpg");
+        background-size: cover;
+        height: 100vh;
+        margin: 0 0 0 20%;
+    }
+
+    .name {
+        color: #f9f3f4;
+        position: absolute;
+        text-align: center;
+        top: 40%;
+        width: 80%;
+    }
+
+    .img-profile {
+        max-width: 20rem;
+        max-height: 20rem;
+        vertical-align: middle;
+    }
+
+    .navbar-link {
+        text-align: center;
+        margin: auto;
+        padding-top: 30px;
+    }
+
+    .links {
+        text-align: center;
+        display: block;
+        padding-top: 30px;
+        color: #818181;
+    }
+
+    .small {
+        display: none;
+    }
+
+    .content {
+        margin: 0 0 0 20%;
+        height: 100vh;
+    }
+}
